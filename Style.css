@@ -1,0 +1,142 @@
+
+/* for header */
+h1 {                
+  color: navy;
+  margin-left: 180px;
+}
+h2 {
+    color:brown;
+    margin-left: 180px;
+}
+h3 {
+    color:dimgray;
+    margin-left:180px;
+}
+/* for paragraph unfinished*/
+p {
+  border: 2px solid black;
+  margin: auto;  
+  padding: 20px;
+  text-align: center;
+}
+
+/* for button -- need to add [class="button"] */
+.button {
+    background-color: #4CAF50;
+    border:none;
+    color: white;
+    padding: 8px 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-left: 180px ;
+    cursor: pointer;
+}
+
+label {
+    color: #B4886B;
+    font-weight: bold;
+    display: block;
+    width: 150px;
+    float: left;
+    margin-left: 180px;
+}
+
+/* for label -- need to add [CssClass="labelclass"] */
+.labelclass {
+    font-size: large;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:darkmagenta;
+    display: inline-block;
+    margin-left:180px;
+}
+/* for TextBox -- need to add [CssClass="tb_css"] */
+.tb_css {
+    color: Black;
+    width: 200px;
+    height: 14px;
+    margin-left:180px;
+}
+/* The side navigation menu  -- need to add <div class="sidenav">                               
+                                            <a href="[webform_name].aspx">[Displayed name]</a>
+                                            </div>*/
+/* for TextBox -- need to add [CssClass="ddl"] */
+.ddl {
+    border: 2px solid #7d6754;
+    border-radius: 20px;
+    padding: 5px;
+    -webkit-appearance: none;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 50px;
+    margin-left: 180px;
+    text-indent: 0.01px; /*In Firefox*/
+    text-overflow: ''; /*In Firefox*/
+}
+
+.sidenav {
+    height: 100%; /* 100% Full-height */
+    width: 10%; /* 0 width - change this with JavaScript */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Stay on top */
+    top: 0; /* Stay at the top */
+    left: 0;
+    background-color: #111; /* Black*/
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 60px; /* Place content 60px from the top */
+    transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+}
+
+    /* The navigation menu links */
+    .sidenav a {
+        padding: 8px 0px 8px 4px;
+        text-decoration: none;
+        font-size: 25px;
+        color: #818181;
+        display: block;
+        transition: 0.3s;
+    }
+
+        /* When you mouse over the navigation links, change their color */
+        .sidenav a:hover {
+            color: #f1f1f1;
+        }
+
+    /* Position and style the close button (top right corner) */
+    .sidenav .closebtn {
+        position: absolute;
+        top: 0;
+        right: 25px;
+        font-size: 36px;
+        margin-left: 50px;
+    }
+
+/* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+#main {
+    transition: margin-left 5.5s;
+    padding: 20px;
+}
+
+    
+
+  .sidenav a {
+       font-size: 18px;
+   }
+
+/* the grid view*/
+.grid{ margin-left:180px;border-collapse:collapse;text-align:center}
+
+.grid td{padding:10px ;border:1px solid #c1c1c1;color:#444;font-size:1em;}
+
+.grid th{padding:4px 2px ; color:#707083; text-shadow:1px 1px 0px #ffffff;
+         
+         border:1px solid #c1c1c1;font-size:1em;text-align:center ;}
+         
+.grid th a{color:White;text-decoration:none; }
+
+.grid th a:hover{color:#444;text-decoration:none ;}
+
+.grid .alt{background:linear-gradient(#fff,#e6e6e6);}
+
+
